@@ -2,4 +2,4 @@
 
 Included in WiDefend Android
 
-Network.java
+Network.java call cmd with netstat syntax (Android, based on linux karnel)
