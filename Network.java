@@ -93,36 +93,7 @@ public class Network extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_device) {
-            Intent intent = new Intent(this, Device.class);
-            startActivity(intent);
-            finish();
-        } else if (id == R.id.nav_scan) {
-            Intent intent = new Intent(this, Scan.class);
-            startActivity(intent);
-            finish();
-
-        } else if (id == R.id.nav_process) {
-            Intent intent = new Intent(this, Processs.class);
-            startActivity(intent);
-            finish();
-        } else if (id == R.id.nav_network) {
-
-        }else if (id == R.id.nav_findingip) {
-            Intent intent = new Intent(this, FindingIP.class);
-            startActivity(intent);
-            finish();
-
-        } else if (id == R.id.nav_folderlock) {
-            Intent intent = new Intent(this, Encryption.class);
-            startActivity(intent);
-            finish();
-
-        }else if (id == R.id.nav_about) {
-            Intent intent = new Intent(this, About.class);
-            startActivity(intent);
-            finish();
-        }else if (id == R.id.nav_share) {
+        else if (id == R.id.nav_share) {
             Intent intent = new Intent(Intent.ACTION_SEND);
             intent.setType("text/plain");
             String shareDes = "WIDefend - App to monitoring your device from trojan and unknown connection. Download github.com/wishihab";
