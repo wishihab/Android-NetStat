@@ -7,4 +7,4 @@ Included in WiDefend Android
 Network.java call cmd with netstat syntax (Android is based on linux karnel)
 
 
-It's may doesnt work on Android P
+It's may doesnt work on Android P (note : it's work!)
